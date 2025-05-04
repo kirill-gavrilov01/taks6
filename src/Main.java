@@ -6,11 +6,11 @@ public class Main {
         if (age >= 18) {
             System.out.println(" Если возраст человека равен " + age + " то он совершеннолетний ");
         }
-        if (age < 18) {
+         else  {
             System.out.println(" Если возраст человека равен " + age + " то он не достиг совершеннолетия, нужно не много подождать ");
         }
         System.out.println(" Задача№2");
-        int temperature = 2;
+        int temperature = 5;
         if (temperature >= 5) {
             System.out.println(" На улице холодно " + temperature + " градусов , нужно надеть шапку ");
         } else {
@@ -32,7 +32,7 @@ public class Main {
             System.out.println(" Если возраст человека равен " + ages + " то ему надо ходить в детский сад");
         } else if (ages >= 7 && ages <=17) {
             System.out.println(" Если возраст человека равен " + ages + " то ему надо ходить в школу");
-        } else  if (ages >=10 && ages <=24) {
+        } else  if (ages >=18 && ages <=24) {
             System.out.println(" Если возраст человека равен " + ages + " то ему надо ходить в университет");
         } else  {
             System.out.println(" Если возраст человека равен " + ages + " то ему надо ходить на работу");
@@ -50,7 +50,7 @@ public class Main {
             } else {
                 System.out.println(" Если возраст ребёнка равен " + age1 + " то ему нельзя кататься на атракционе");
             }
-        } else if (age1 >= 5 && age1 < 14) {
+        } else if (age1 <= 5 && age1 > 14) {
             System.out.println(" Если возраст ребёнка равен" + age1 + " то ему можно кататься на атракционе");
         }
 
