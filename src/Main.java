@@ -13,7 +13,6 @@ public class Main {
         int temperature = 2;
         if (temperature >= 5) {
             System.out.println(" На улице холодно " + temperature + " градусов , нужно надеть шапку ");
-        } else {
         }
         if (temperature <= 5) {
             System.out.println(" Сегодня тепло " + temperature + " градусов, можно идти без шапки ");
@@ -36,18 +35,14 @@ public class Main {
             System.out.println(" Если возраст человека равен " + ages + " то ему надо ходить в университет");
         } else  {
             System.out.println(" Если возраст человека равен " + ages + " то ему надо ходить на работу");
-            {
-            }
         }
         System.out.println(" Задача№5");
         int age1 = 10;
-        boolean adultpresent = false;
         if (age < 5) {
             System.out.println(" Если возраст ребёнка равен " + age1 + " то ему нельзя кататься на атракционе ");
         } else if (age1 >= 5 && age1 < 14) {
-            if (adultpresent) {
                 System.out.println(" Если возраст ребёнка равен " + age1 + " то ему можно кататься в сопровождении взрослого");
-            } else {
+             {
                 System.out.println(" Если возраст ребёнка равен " + age1 + " то ему нельзя кататься на атракционе");
             }
         } else if (age1 >= 5 && age1 < 14) {
